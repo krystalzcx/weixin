@@ -1,0 +1,23 @@
+{
+  "test_department.py::TestDepartment::()": true,
+  "test_department.py::TestDepartment::()::test_create_name_length": true,
+  "test_department.py::TestDepartment::()::test_create_name_length[\\u4e00\\u4e8c\\u4e09\\u56db\\u4e94\\u516d\\u4e03\\u516b\\u4e5d\\u5341\\u4e00\\u4e8c\\u4e09\\u56db\\u4e94\\u516d]": true,
+  "test_department.py::TestDepartment::()::test_delete": true,
+  "test_department.py::TestDepartment::()::test_delete[3-6006]": true,
+  "test_department.py::TestDepartment::()::test_delete[35-0]": true,
+  "test_department.py::TestDepartment::()::test_list_one[191]": true,
+  "test_department.py::TestDepartment::()::test_parameter_type[123-1-1-1]": true,
+  "test_department.py::TestDepartment::()::test_parameter_type[123-1-1]": true,
+  "test_department.py::TestDepartment::()::test_parameter_type[\\u6d4b\\u8bd5-1-1-10]": true,
+  "test_department.py::TestDepartment::()::test_parameter_type[\\u6d4b\\u8bd5-1-1-11]": true,
+  "test_department.py::TestDepartment::()::test_parameter_type[\\u6d4b\\u8bd5-1-1-12]": true,
+  "test_department.py::TestDepartment::()::test_parameter_type[\\u6d4b\\u8bd5-1-10]": true,
+  "test_department.py::TestDepartment::()::test_parameter_type[\\u6d4b\\u8bd5-1-11]": true,
+  "test_department.py::TestDepartment::()::test_parameter_type[\\u6d4b\\u8bd5-1-12]": true,
+  "test_department.py::TestDepartment::()::test_update_name": true,
+  "test_department.py::TestDepartment::()::test_update_name_length": true,
+  "test_department.py::TestDepartment::test_list_order[1]": true,
+  "test_department.py::TestDepartment::test_order": true,
+  "test_department.py::TestDepartment::test_update_parentid": true,
+  "test_user.py::TestUser::()::test_get_user[1]": true
+}

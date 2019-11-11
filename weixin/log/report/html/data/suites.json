@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_department",
+    "children" : [ {
+      "name" : "TestDepartment",
+      "children" : [ {
+        "name" : "test_duplicate_name",
+        "uid" : "aaaa39dd7a5b15c8",
+        "parentUid" : "ff29ede8ff8ad7ba37ae98b1612c3474",
+        "status" : "passed",
+        "time" : {
+          "start" : 1572852398146,
+          "stop" : 1572852398607,
+          "duration" : 461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff29ede8ff8ad7ba37ae98b1612c3474"
+    } ],
+    "uid" : "6c6eff7e10a204b9e95bf0acd4ee260b"
+  } ]
+}

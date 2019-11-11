@@ -1,0 +1,3 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): qyapi.weixin.qq.com
+DEBUG:urllib3.connectionpool:https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=ZP0968BV5Jv6MHEeCq2wFv3VlaSHFY38WGM8Hih6yRE1h6ONOMNgRI8uEGFsKDF9lZkuIx0AdQOzC1iPIPuzrWdLhpt_Ne1TCZtdsq3JOCC-h8-WC0mxBAQ3nqF1jZLDbbXTtSTqjE26Ac788S-qTmFueMhT46qf-ZBj7LrVhgXZJpW66FCwTAVdhrOhOwbyg7fDi7g3Ifeek33qfListA HTTP/1.1" 200 202
+DEBUG:root:{'errcode': 60001, 'errmsg': 'department invalid length, hint: [1572850704_55_c57e98ff8fa1b4dfcb4310ec26d9fe0f], from ip: 58.38.253.252, more info at https://open.work.weixin.qq.com/devtool/query?e=60001'}

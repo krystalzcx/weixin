@@ -1,0 +1,11 @@
+[ {
+  "uid" : "aaaa39dd7a5b15c8",
+  "name" : "test_duplicate_name",
+  "time" : {
+    "start" : 1572852398146,
+    "stop" : 1572852398607,
+    "duration" : 461
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

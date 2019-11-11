@@ -1,0 +1,5 @@
+[
+  "test_user.py::TestUser::()::test_create",
+  "test_user.py::TestUser::()::test_create_by_template",
+  "test_user.py::TestUser::()::test_list"
+]

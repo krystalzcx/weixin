@@ -1,0 +1,4 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): qyapi.weixin.qq.com
+DEBUG:urllib3.connectionpool:https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww14d8a344f7e5068b&corpsecret=hJpI1_dE_Z74JkL7Zr72JrOGGkIo7cS3yj51bnKicxc HTTP/1.1" 200 277
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): qyapi.weixin.qq.com
+DEBUG:urllib3.connectionpool:https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=ZP0968BV5Jv6MHEeCq2wFv3VlaSHFY38WGM8Hih6yRE1h6ONOMNgRI8uEGFsKDF9lZkuIx0AdQOzC1iPIPuzrWdLhpt_Ne1TCZtdsq3JOCC-h8-WC0mxBAQ3nqF1jZLDbbXTtSTqjE26Ac788S-qTmFueMhT46qf-ZBj7LrVhgXZJpW66FCwTAVdhrOhOwbyg7fDi7g3Ifeek33qfListA HTTP/1.1" 200 202

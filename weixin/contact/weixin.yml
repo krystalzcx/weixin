@@ -1,0 +1,7 @@
+#变量管理
+#env环境相关
+#corp_id secret是获取token的参数
+
+env:
+  corpid: ww14d8a344f7e5068b
+  secret: hJpI1_dE_Z74JkL7Zr72JrOGGkIo7cS3yj51bnKicxc

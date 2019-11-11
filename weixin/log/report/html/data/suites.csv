@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Nov 04 15:26:38 CST 2019","Mon Nov 04 15:26:38 CST 2019","461","","test_department","TestDepartment","","","test_duplicate_name",""

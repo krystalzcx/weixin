@@ -1,0 +1,345 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "userid",
+    "name",
+    "alias",
+    "mobile",
+    "department",
+    "order",
+    "position",
+    "gender",
+    "email",
+    "is_leader_in_dept",
+    "enable",
+    "avatar_mediaid",
+    "telephone",
+    "address",
+    "extattr",
+    "to_invite",
+    "external_position",
+    "external_profile"
+  ],
+  "properties": {
+    "userid": {
+      "$id": "#/properties/userid",
+      "type": "string",
+      "title": "The Userid Schema",
+      "default": "",
+      "examples": [
+        "zhangsan"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string",
+      "title": "The Name Schema",
+      "default": "",
+      "examples": [
+        "张三"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "alias": {
+      "$id": "#/properties/alias",
+      "type": "string",
+      "title": "The Alias Schema",
+      "default": "",
+      "examples": [
+        "jackzhang"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "mobile": {
+      "$id": "#/properties/mobile",
+      "type": "string",
+      "title": "The Mobile Schema",
+      "default": "",
+      "examples": [
+        "15913215421"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "department": {
+      "$id": "#/properties/department",
+      "type": "array",
+      "title": "The Department Schema",
+      "items": {
+        "$id": "#/properties/department/items",
+        "type": "integer",
+        "title": "The Items Schema",
+        "default": 0,
+        "examples": [
+          1,
+          2
+        ]
+      }
+    },
+    "order": {
+      "$id": "#/properties/order",
+      "type": "array",
+      "title": "The Order Schema",
+      "items": {
+        "$id": "#/properties/order/items",
+        "type": "integer",
+        "title": "The Items Schema",
+        "default": 0,
+        "examples": [
+          10,
+          40
+        ]
+      }
+    },
+    "position": {
+      "$id": "#/properties/position",
+      "type": "string",
+      "title": "The Position Schema",
+      "default": "",
+      "examples": [
+        "产品经理"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "gender": {
+      "$id": "#/properties/gender",
+      "type": "string",
+      "title": "The Gender Schema",
+      "default": "",
+      "examples": [
+        "1"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "email": {
+      "$id": "#/properties/email",
+      "type": "string",
+      "title": "The Email Schema",
+      "default": "",
+      "examples": [
+        "zhangsan@gzdev.com"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "is_leader_in_dept": {
+      "$id": "#/properties/is_leader_in_dept",
+      "type": "array",
+      "title": "The Is_leader_in_dept Schema",
+      "items": {
+        "$id": "#/properties/is_leader_in_dept/items",
+        "type": "integer",
+        "title": "The Items Schema",
+        "default": 0,
+        "examples": [
+          1,
+          0
+        ]
+      }
+    },
+    "enable": {
+      "$id": "#/properties/enable",
+      "type": "integer",
+      "title": "The Enable Schema",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "avatar_mediaid": {
+      "$id": "#/properties/avatar_mediaid",
+      "type": "string",
+      "title": "The Avatar_mediaid Schema",
+      "default": "",
+      "examples": [
+        "2-G6nrLmr5EC3MNb_-zL1dDdzkd0p7cNliYu9V5w7o8K0"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "telephone": {
+      "$id": "#/properties/telephone",
+      "type": "string",
+      "title": "The Telephone Schema",
+      "default": "",
+      "examples": [
+        "020-123456"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "address": {
+      "$id": "#/properties/address",
+      "type": "string",
+      "title": "The Address Schema",
+      "default": "",
+      "examples": [
+        "广州市海珠区新港中路"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "extattr": {
+      "$id": "#/properties/extattr",
+      "type": "object",
+      "title": "The Extattr Schema",
+      "required": [
+        "attrs"
+      ],
+      "properties": {
+        "attrs": {
+          "$id": "#/properties/extattr/properties/attrs",
+          "type": "array",
+          "title": "The Attrs Schema",
+          "items": {
+            "$id": "#/properties/extattr/properties/attrs/items",
+            "type": "object",
+            "title": "The Items Schema",
+            "required": [
+              "type",
+              "name",
+              "text"
+            ],
+            "properties": {
+              "type": {
+                "$id": "#/properties/extattr/properties/attrs/items/properties/type",
+                "type": "integer",
+                "title": "The Type Schema",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "name": {
+                "$id": "#/properties/extattr/properties/attrs/items/properties/name",
+                "type": "string",
+                "title": "The Name Schema",
+                "default": "",
+                "examples": [
+                  "文本名称"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "text": {
+                "$id": "#/properties/extattr/properties/attrs/items/properties/text",
+                "type": "object",
+                "title": "The Text Schema",
+                "required": [
+                  "value"
+                ],
+                "properties": {
+                  "value": {
+                    "$id": "#/properties/extattr/properties/attrs/items/properties/text/properties/value",
+                    "type": "string",
+                    "title": "The Value Schema",
+                    "default": "",
+                    "examples": [
+                      "文本"
+                    ],
+                    "pattern": "^(.*)$"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "to_invite": {
+      "$id": "#/properties/to_invite",
+      "type": "boolean",
+      "title": "The To_invite Schema",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "external_position": {
+      "$id": "#/properties/external_position",
+      "type": "string",
+      "title": "The External_position Schema",
+      "default": "",
+      "examples": [
+        "高级产品经理"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "external_profile": {
+      "$id": "#/properties/external_profile",
+      "type": "object",
+      "title": "The External_profile Schema",
+      "required": [
+        "external_corp_name",
+        "external_attr"
+      ],
+      "properties": {
+        "external_corp_name": {
+          "$id": "#/properties/external_profile/properties/external_corp_name",
+          "type": "string",
+          "title": "The External_corp_name Schema",
+          "default": "",
+          "examples": [
+            "企业简称"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "external_attr": {
+          "$id": "#/properties/external_profile/properties/external_attr",
+          "type": "array",
+          "title": "The External_attr Schema",
+          "items": {
+            "$id": "#/properties/external_profile/properties/external_attr/items",
+            "type": "object",
+            "title": "The Items Schema",
+            "required": [
+              "type",
+              "name",
+              "text"
+            ],
+            "properties": {
+              "type": {
+                "$id": "#/properties/external_profile/properties/external_attr/items/properties/type",
+                "type": "integer",
+                "title": "The Type Schema",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "name": {
+                "$id": "#/properties/external_profile/properties/external_attr/items/properties/name",
+                "type": "string",
+                "title": "The Name Schema",
+                "default": "",
+                "examples": [
+                  "文本名称"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "text": {
+                "$id": "#/properties/external_profile/properties/external_attr/items/properties/text",
+                "type": "object",
+                "title": "The Text Schema",
+                  "required": [
+                  "value"
+                ],
+                "properties": {
+                  "value": {
+                    "$id": "#/properties/external_profile/properties/external_attr/items/properties/text/properties/value",
+                    "type": "string",
+                    "title": "The Value Schema",
+                    "default": "",
+                    "examples": [
+                      "文本"
+                    ],
+                    "pattern": "^(.*)$"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
